@@ -8,8 +8,8 @@ def get_data():
             "items": [
                 {
                     "type": "doctype",
-                    "name": "CAF Example",
-                    "label": "CAF Example",
+                    "name": "Automate WO",
+                    "label": "Automate WO",
                     "onboard": 1,
                 }
             ]

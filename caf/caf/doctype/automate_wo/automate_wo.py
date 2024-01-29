@@ -6,9 +6,10 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class CAFExample(Document):
+class AutomateWO(Document):
+	def onload(self):
+		print("Hello")
 	pass
-
 
 # frappe.whitelist()
 # def create_frepple_item(doc):
