@@ -12,6 +12,7 @@
             "fieldname": "wo_table",
             "fieldtype": "Table",
             "label": "WO Table",
+            "options": "Work Order Operation",
             "read_only": 1
         }
     ],
