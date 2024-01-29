@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from caf import _
+from frappe import _
 
 def get_data():
 	return [
