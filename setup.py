@@ -5,7 +5,7 @@ with open("requirements.txt") as f:
 	install_requires = f.read().strip().split("\n")
 
 # get version from __version__ variable in apache_superset/__init__.py
-from apache_superset import __version__ as version
+from caf import __version__ as version
 
 setup(
 	name="apache_superset",
