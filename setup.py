@@ -4,15 +4,15 @@ from setuptools import setup, find_packages
 with open("requirements.txt") as f:
 	install_requires = f.read().strip().split("\n")
 
-# get version from __version__ variable in apache_superset/__init__.py
+# get version from __version__ variable in caf/__init__.py
 from caf import __version__ as version
 
 setup(
-	name="apache_superset",
+	name="caf",
 	version=version,
-	description="Integration between ERPNext and Apache Superset",
-	author="Drayang Chua",
-	author_email="dchu0011@student.monash.edu",
+	description="CAF",
+	author="Friesen Tjou Jazernicky",
+	author_email="friesen.tjou@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

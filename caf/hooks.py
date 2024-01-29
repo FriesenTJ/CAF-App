@@ -15,12 +15,12 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/apache_superset/css/apache_superset.css"
-# app_include_js = "/assets/apache_superset/js/apache_superset.js"
+# app_include_css = "/assets/caf/css/caf.css"
+# app_include_js = "/assets/caf/js/caf.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/apache_superset/css/apache_superset.css"
-# web_include_js = "/assets/apache_superset/js/apache_superset.js"
+# web_include_css = "/assets/caf/css/caf.css"
+# web_include_js = "/assets/caf/js/caf.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -43,7 +43,7 @@ app_license = "MIT"
 # }
 
 # Website user home page (by function)
-# get_website_user_home_page = "apache_superset.utils.get_home_page"
+# get_website_user_home_page = "caf.utils.get_home_page"
 
 # Generators
 # ----------
@@ -54,14 +54,14 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "apache_superset.install.before_install"
-# after_install = "apache_superset.install.after_install"
+# before_install = "caf.install.before_install"
+# after_install = "caf.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "apache_superset.notifications.get_notification_config"
+# notification_config = "caf.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -99,38 +99,38 @@ doctype_js = {
 
 # scheduler_events = {
 # 	"all": [
-# 		"apache_superset.tasks.all"
+# 		"caf.tasks.all"
 # 	],
 # 	"daily": [
-# 		"apache_superset.tasks.daily"
+# 		"caf.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"apache_superset.tasks.hourly"
+# 		"caf.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"apache_superset.tasks.weekly"
+# 		"caf.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"apache_superset.tasks.monthly"
+# 		"caf.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "apache_superset.install.before_tests"
+# before_tests = "caf.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "apache_superset.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "caf.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "apache_superset.task.get_dashboard_data"
+# 	"Task": "caf.task.get_dashboard_data"
 # }
 
