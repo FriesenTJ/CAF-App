@@ -4,12 +4,12 @@ from caf import _
 def get_data():
     config = [
         {
-            "label": _("Hello"),
+            "label": _("CAF Menu"),
             "items": [
                 {
                     "type": "doctype",
-                    "name": "CAF Menu",
-                    "label": "CAF Menu",
+                    "name": "CAF Example",
+                    "label": "CAF Exxample",
                     "onboard": 1,
                 }
             ]
