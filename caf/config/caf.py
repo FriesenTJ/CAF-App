@@ -9,7 +9,7 @@ def get_data():
                 {
                     "type": "doctype",
                     "name": "CAF Example",
-                    "label": "CAF Exxample",
+                    "label": "CAF Example",
                     "onboard": 1,
                 }
             ]
